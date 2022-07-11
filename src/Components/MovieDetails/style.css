@@ -1,0 +1,31 @@
+.detail-container {
+  display: flex;
+  color: rgba(255, 255, 255, 0.863);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 1000px;
+}
+
+.desc {
+  max-width: 650px;
+  color: rgba(255, 255, 255, 0.863);
+}
+
+.body-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details-card {
+  border: 0.5px solid rgb(100, 100, 100);
+  border-radius: 5px;
+  background-color: rgb(80, 79, 79);
+  color: rgba(255, 255, 255, 0.863);
+  padding: 25px;
+  box-shadow: 8px 16px 16px hsl(0deg 0% 0% / 0.25);
+}
